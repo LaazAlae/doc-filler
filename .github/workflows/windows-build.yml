@@ -20,20 +20,9 @@ jobs:
           pip install pyinstaller
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --icon=logo.ico \
-          --hidden-import=kivy --hidden-import=docx --hidden-import=kivy.deps.sdl2 \
-          --add-data "cons_ids.txt;." \
-          --add-data "descriptions.txt;." \
-          --add-data "dropdown_options.json;." \
-          --add-data "filldoc.docm;." \
-          --add-data "filldoc.docx;." \
-          --add-data "flights.txt;." \
-          --add-data "names.txt;." \
-          --add-data "tags.txt;." \
-          --add-data "user_selections.txt;." \
-          --add-data "app.log;."
+          pyinstaller --onefile --windowed --icon=logo.ico --hidden-import=kivy --hidden-import=docx --hidden-import=kivy.deps.sdl2 --add-data "cons_ids.txt;." --add-data "descriptions.txt;." --add-data "dropdown_options.json;." --add-data "filldoc.docm;." --add-data "filldoc.docx;." --add-data "flights.txt;." --add-data "names.txt;." --add-data "tags.txt;." --add-data "user_selections.txt;." --add-data "app.log;."
       - name: Upload executable
-        uses: actions/upload-artifact@v3  # Update to v3
+        uses: actions/upload-artifact@v3
         with:
           name: document_filler.exe
           path: dist/document_filler.exe
