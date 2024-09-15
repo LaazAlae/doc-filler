@@ -21,7 +21,7 @@ jobs:
       - name: Build executable
         run: pyinstaller --onefile --windowed --icon=logo.ico document_filler.py
       - name: Upload executable
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3  # Update to v3 here
         with:
           name: document_filler.exe
           path: dist/document_filler.exe
