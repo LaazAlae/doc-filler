@@ -1,0 +1,9 @@
+2024-09-14 13:39:06,670 INFO Name dropdown created
+2024-09-14 13:39:06,670 INFO Consular ID dropdown created
+2024-09-14 13:39:06,670 INFO Number of boxes dropdown created
+2024-09-14 13:39:06,670 INFO Flight number dropdown created
+2024-09-14 13:39:06,670 INFO Submit button created
+2024-09-14 13:39:06,671 INFO Result label created
+2024-09-14 13:39:06,671 INFO Starting mainloop
+2024-09-14 13:39:09,477 INFO Checking if all selections have been made
+2024-09-14 13:39:09,479 INFO Not all selections made, disabling submit button

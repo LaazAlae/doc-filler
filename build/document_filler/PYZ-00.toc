@@ -1,0 +1,3720 @@
+('/Users/alaelaaziri/Desktop/doc filler/build/document_filler/PYZ-00.pyz',
+ [('__future__',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_compression.py',
+   'PYMODULE'),
+  ('_osx_support',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_osx_support.py',
+   'PYMODULE'),
+  ('_py_abc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_py_abc.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_pydecimal.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_sitebuiltins.py',
+   'PYMODULE'),
+  ('_strptime',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_strptime.py',
+   'PYMODULE'),
+  ('_sysconfigdata__darwin_darwin',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_sysconfigdata__darwin_darwin.py',
+   'PYMODULE'),
+  ('_threading_local',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/argparse.py',
+   'PYMODULE'),
+  ('ast', '/Users/alaelaaziri/anaconda3/lib/python3.11/ast.py', 'PYMODULE'),
+  ('asyncio',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/asyncio/windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/base64.py',
+   'PYMODULE'),
+  ('bdb', '/Users/alaelaaziri/anaconda3/lib/python3.11/bdb.py', 'PYMODULE'),
+  ('bisect',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/bisect.py',
+   'PYMODULE'),
+  ('bz2', '/Users/alaelaaziri/anaconda3/lib/python3.11/bz2.py', 'PYMODULE'),
+  ('calendar',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/calendar.py',
+   'PYMODULE'),
+  ('certifi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/certifi/__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/certifi/core.py',
+   'PYMODULE'),
+  ('cgi', '/Users/alaelaaziri/anaconda3/lib/python3.11/cgi.py', 'PYMODULE'),
+  ('cmd', '/Users/alaelaaziri/anaconda3/lib/python3.11/cmd.py', 'PYMODULE'),
+  ('code', '/Users/alaelaaziri/anaconda3/lib/python3.11/code.py', 'PYMODULE'),
+  ('codeop',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/codeop.py',
+   'PYMODULE'),
+  ('colorsys',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/colorsys.py',
+   'PYMODULE'),
+  ('concurrent',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/concurrent/__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/concurrent/futures/__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/concurrent/futures/_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/concurrent/futures/process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/concurrent/futures/thread.py',
+   'PYMODULE'),
+  ('configparser',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/contextvars.py',
+   'PYMODULE'),
+  ('copy', '/Users/alaelaaziri/anaconda3/lib/python3.11/copy.py', 'PYMODULE'),
+  ('csv', '/Users/alaelaaziri/anaconda3/lib/python3.11/csv.py', 'PYMODULE'),
+  ('ctypes',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/macholib/__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/macholib/dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/macholib/dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/macholib/framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ctypes/wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/difflib.py',
+   'PYMODULE'),
+  ('dis', '/Users/alaelaaziri/anaconda3/lib/python3.11/dis.py', 'PYMODULE'),
+  ('doctest',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/doctest.py',
+   'PYMODULE'),
+  ('docutils',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/__init__.py',
+   'PYMODULE'),
+  ('docutils.frontend',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/frontend.py',
+   'PYMODULE'),
+  ('docutils.io',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/io.py',
+   'PYMODULE'),
+  ('docutils.languages',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/__init__.py',
+   'PYMODULE'),
+  ('docutils.languages.af',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/af.py',
+   'PYMODULE'),
+  ('docutils.languages.ar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ar.py',
+   'PYMODULE'),
+  ('docutils.languages.ca',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ca.py',
+   'PYMODULE'),
+  ('docutils.languages.cs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/cs.py',
+   'PYMODULE'),
+  ('docutils.languages.da',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/da.py',
+   'PYMODULE'),
+  ('docutils.languages.de',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/de.py',
+   'PYMODULE'),
+  ('docutils.languages.en',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/en.py',
+   'PYMODULE'),
+  ('docutils.languages.eo',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/eo.py',
+   'PYMODULE'),
+  ('docutils.languages.es',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/es.py',
+   'PYMODULE'),
+  ('docutils.languages.fa',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/fa.py',
+   'PYMODULE'),
+  ('docutils.languages.fi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/fi.py',
+   'PYMODULE'),
+  ('docutils.languages.fr',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/fr.py',
+   'PYMODULE'),
+  ('docutils.languages.gl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/gl.py',
+   'PYMODULE'),
+  ('docutils.languages.he',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/he.py',
+   'PYMODULE'),
+  ('docutils.languages.it',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/it.py',
+   'PYMODULE'),
+  ('docutils.languages.ja',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ja.py',
+   'PYMODULE'),
+  ('docutils.languages.ka',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ka.py',
+   'PYMODULE'),
+  ('docutils.languages.ko',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ko.py',
+   'PYMODULE'),
+  ('docutils.languages.lt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/lt.py',
+   'PYMODULE'),
+  ('docutils.languages.lv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/lv.py',
+   'PYMODULE'),
+  ('docutils.languages.nl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/nl.py',
+   'PYMODULE'),
+  ('docutils.languages.pl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/pl.py',
+   'PYMODULE'),
+  ('docutils.languages.pt_br',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/pt_br.py',
+   'PYMODULE'),
+  ('docutils.languages.ru',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/ru.py',
+   'PYMODULE'),
+  ('docutils.languages.sk',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/sk.py',
+   'PYMODULE'),
+  ('docutils.languages.sv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/sv.py',
+   'PYMODULE'),
+  ('docutils.languages.uk',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/uk.py',
+   'PYMODULE'),
+  ('docutils.languages.zh_cn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/zh_cn.py',
+   'PYMODULE'),
+  ('docutils.languages.zh_tw',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/languages/zh_tw.py',
+   'PYMODULE'),
+  ('docutils.nodes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/nodes.py',
+   'PYMODULE'),
+  ('docutils.parsers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.admonitions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/admonitions.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.body',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/body.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/html.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.images',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/images.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.misc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/misc.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.parts',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/parts.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.references',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/references.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.tables',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/directives/tables.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.af',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/af.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ar.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ca',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ca.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.cs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/cs.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.da',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/da.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.de',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/de.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.en',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/en.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.eo',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/eo.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.es',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/es.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fa',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/fa.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/fi.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fr',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/fr.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.gl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/gl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.he',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/he.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.it',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/it.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ja',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ja.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ka',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ka.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ko',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ko.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.lt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/lt.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.lv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/lv.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.nl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/nl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.pl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/pl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.pt_br',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/pt_br.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ru',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/ru.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.sk',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/sk.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.sv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/sv.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.uk',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/uk.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.zh_cn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_cn.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.zh_tw',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_tw.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.roles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/roles.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.states',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/states.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.tableparser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/tableparser.py',
+   'PYMODULE'),
+  ('docutils.readers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/readers/__init__.py',
+   'PYMODULE'),
+  ('docutils.readers.standalone',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/readers/standalone.py',
+   'PYMODULE'),
+  ('docutils.statemachine',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/statemachine.py',
+   'PYMODULE'),
+  ('docutils.transforms',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/__init__.py',
+   'PYMODULE'),
+  ('docutils.transforms.frontmatter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/frontmatter.py',
+   'PYMODULE'),
+  ('docutils.transforms.misc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/misc.py',
+   'PYMODULE'),
+  ('docutils.transforms.parts',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/parts.py',
+   'PYMODULE'),
+  ('docutils.transforms.references',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/references.py',
+   'PYMODULE'),
+  ('docutils.transforms.universal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/universal.py',
+   'PYMODULE'),
+  ('docutils.transforms.writer_aux',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/transforms/writer_aux.py',
+   'PYMODULE'),
+  ('docutils.utils',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/__init__.py',
+   'PYMODULE'),
+  ('docutils.utils.code_analyzer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/code_analyzer.py',
+   'PYMODULE'),
+  ('docutils.utils.math',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/__init__.py',
+   'PYMODULE'),
+  ('docutils.utils.math.latex2mathml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/latex2mathml.py',
+   'PYMODULE'),
+  ('docutils.utils.math.math2html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/math2html.py',
+   'PYMODULE'),
+  ('docutils.utils.math.mathalphabet2unichar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/mathalphabet2unichar.py',
+   'PYMODULE'),
+  ('docutils.utils.math.mathml_elements',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/mathml_elements.py',
+   'PYMODULE'),
+  ('docutils.utils.math.tex2mathml_extern',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/tex2mathml_extern.py',
+   'PYMODULE'),
+  ('docutils.utils.math.tex2unichar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/tex2unichar.py',
+   'PYMODULE'),
+  ('docutils.utils.math.unichar2tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/math/unichar2tex.py',
+   'PYMODULE'),
+  ('docutils.utils.punctuation_chars',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/punctuation_chars.py',
+   'PYMODULE'),
+  ('docutils.utils.roman',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/roman.py',
+   'PYMODULE'),
+  ('docutils.utils.smartquotes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/smartquotes.py',
+   'PYMODULE'),
+  ('docutils.utils.urischemes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/utils/urischemes.py',
+   'PYMODULE'),
+  ('docutils.writers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers._html_base',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/_html_base.py',
+   'PYMODULE'),
+  ('docutils.writers.docutils_xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/docutils_xml.py',
+   'PYMODULE'),
+  ('docutils.writers.html4css1',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html4css1/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.html5_polyglot',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.latex2e',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.manpage',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/manpage.py',
+   'PYMODULE'),
+  ('docutils.writers.null',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/null.py',
+   'PYMODULE'),
+  ('docutils.writers.odf_odt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/odf_odt/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.odf_odt.prepstyles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/odf_odt/prepstyles.py',
+   'PYMODULE'),
+  ('docutils.writers.odf_odt.pygmentsformatter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/odf_odt/pygmentsformatter.py',
+   'PYMODULE'),
+  ('docutils.writers.pep_html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/pep_html/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.pseudoxml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/pseudoxml.py',
+   'PYMODULE'),
+  ('docutils.writers.s5_html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.xetex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/xetex/__init__.py',
+   'PYMODULE'),
+  ('docx',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/__init__.py',
+   'PYMODULE'),
+  ('docx.api',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/api.py',
+   'PYMODULE'),
+  ('docx.blkcntnr',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/blkcntnr.py',
+   'PYMODULE'),
+  ('docx.dml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/dml/__init__.py',
+   'PYMODULE'),
+  ('docx.dml.color',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/dml/color.py',
+   'PYMODULE'),
+  ('docx.document',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/document.py',
+   'PYMODULE'),
+  ('docx.drawing',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/drawing/__init__.py',
+   'PYMODULE'),
+  ('docx.enum',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/__init__.py',
+   'PYMODULE'),
+  ('docx.enum.base',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/base.py',
+   'PYMODULE'),
+  ('docx.enum.dml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/dml.py',
+   'PYMODULE'),
+  ('docx.enum.section',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/section.py',
+   'PYMODULE'),
+  ('docx.enum.shape',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/shape.py',
+   'PYMODULE'),
+  ('docx.enum.style',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/style.py',
+   'PYMODULE'),
+  ('docx.enum.table',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/table.py',
+   'PYMODULE'),
+  ('docx.enum.text',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/enum/text.py',
+   'PYMODULE'),
+  ('docx.exceptions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/exceptions.py',
+   'PYMODULE'),
+  ('docx.image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/__init__.py',
+   'PYMODULE'),
+  ('docx.image.bmp',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/bmp.py',
+   'PYMODULE'),
+  ('docx.image.constants',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/constants.py',
+   'PYMODULE'),
+  ('docx.image.exceptions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/exceptions.py',
+   'PYMODULE'),
+  ('docx.image.gif',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/gif.py',
+   'PYMODULE'),
+  ('docx.image.helpers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/helpers.py',
+   'PYMODULE'),
+  ('docx.image.image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/image.py',
+   'PYMODULE'),
+  ('docx.image.jpeg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/jpeg.py',
+   'PYMODULE'),
+  ('docx.image.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/png.py',
+   'PYMODULE'),
+  ('docx.image.tiff',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/image/tiff.py',
+   'PYMODULE'),
+  ('docx.opc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/__init__.py',
+   'PYMODULE'),
+  ('docx.opc.constants',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/constants.py',
+   'PYMODULE'),
+  ('docx.opc.coreprops',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/coreprops.py',
+   'PYMODULE'),
+  ('docx.opc.exceptions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/exceptions.py',
+   'PYMODULE'),
+  ('docx.opc.oxml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/oxml.py',
+   'PYMODULE'),
+  ('docx.opc.package',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/package.py',
+   'PYMODULE'),
+  ('docx.opc.packuri',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/packuri.py',
+   'PYMODULE'),
+  ('docx.opc.part',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/part.py',
+   'PYMODULE'),
+  ('docx.opc.parts',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/parts/__init__.py',
+   'PYMODULE'),
+  ('docx.opc.parts.coreprops',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/parts/coreprops.py',
+   'PYMODULE'),
+  ('docx.opc.phys_pkg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/phys_pkg.py',
+   'PYMODULE'),
+  ('docx.opc.pkgreader',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/pkgreader.py',
+   'PYMODULE'),
+  ('docx.opc.pkgwriter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/pkgwriter.py',
+   'PYMODULE'),
+  ('docx.opc.rel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/rel.py',
+   'PYMODULE'),
+  ('docx.opc.shared',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/shared.py',
+   'PYMODULE'),
+  ('docx.opc.spec',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/opc/spec.py',
+   'PYMODULE'),
+  ('docx.oxml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/__init__.py',
+   'PYMODULE'),
+  ('docx.oxml.coreprops',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/coreprops.py',
+   'PYMODULE'),
+  ('docx.oxml.document',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/document.py',
+   'PYMODULE'),
+  ('docx.oxml.drawing',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/drawing.py',
+   'PYMODULE'),
+  ('docx.oxml.exceptions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/exceptions.py',
+   'PYMODULE'),
+  ('docx.oxml.ns',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/ns.py',
+   'PYMODULE'),
+  ('docx.oxml.numbering',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/numbering.py',
+   'PYMODULE'),
+  ('docx.oxml.parser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/parser.py',
+   'PYMODULE'),
+  ('docx.oxml.section',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/section.py',
+   'PYMODULE'),
+  ('docx.oxml.settings',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/settings.py',
+   'PYMODULE'),
+  ('docx.oxml.shape',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/shape.py',
+   'PYMODULE'),
+  ('docx.oxml.shared',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/shared.py',
+   'PYMODULE'),
+  ('docx.oxml.simpletypes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/simpletypes.py',
+   'PYMODULE'),
+  ('docx.oxml.styles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/styles.py',
+   'PYMODULE'),
+  ('docx.oxml.table',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/table.py',
+   'PYMODULE'),
+  ('docx.oxml.text',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/__init__.py',
+   'PYMODULE'),
+  ('docx.oxml.text.font',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/font.py',
+   'PYMODULE'),
+  ('docx.oxml.text.hyperlink',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/hyperlink.py',
+   'PYMODULE'),
+  ('docx.oxml.text.pagebreak',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/pagebreak.py',
+   'PYMODULE'),
+  ('docx.oxml.text.paragraph',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/paragraph.py',
+   'PYMODULE'),
+  ('docx.oxml.text.parfmt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/parfmt.py',
+   'PYMODULE'),
+  ('docx.oxml.text.run',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/text/run.py',
+   'PYMODULE'),
+  ('docx.oxml.xmlchemy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/oxml/xmlchemy.py',
+   'PYMODULE'),
+  ('docx.package',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/package.py',
+   'PYMODULE'),
+  ('docx.parts',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/__init__.py',
+   'PYMODULE'),
+  ('docx.parts.document',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/document.py',
+   'PYMODULE'),
+  ('docx.parts.hdrftr',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/hdrftr.py',
+   'PYMODULE'),
+  ('docx.parts.image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/image.py',
+   'PYMODULE'),
+  ('docx.parts.numbering',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/numbering.py',
+   'PYMODULE'),
+  ('docx.parts.settings',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/settings.py',
+   'PYMODULE'),
+  ('docx.parts.story',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/story.py',
+   'PYMODULE'),
+  ('docx.parts.styles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/parts/styles.py',
+   'PYMODULE'),
+  ('docx.section',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/section.py',
+   'PYMODULE'),
+  ('docx.settings',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/settings.py',
+   'PYMODULE'),
+  ('docx.shape',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/shape.py',
+   'PYMODULE'),
+  ('docx.shared',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/shared.py',
+   'PYMODULE'),
+  ('docx.styles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/styles/__init__.py',
+   'PYMODULE'),
+  ('docx.styles.latent',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/styles/latent.py',
+   'PYMODULE'),
+  ('docx.styles.style',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/styles/style.py',
+   'PYMODULE'),
+  ('docx.styles.styles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/styles/styles.py',
+   'PYMODULE'),
+  ('docx.table',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/table.py',
+   'PYMODULE'),
+  ('docx.text',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/__init__.py',
+   'PYMODULE'),
+  ('docx.text.font',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/font.py',
+   'PYMODULE'),
+  ('docx.text.hyperlink',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/hyperlink.py',
+   'PYMODULE'),
+  ('docx.text.pagebreak',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/pagebreak.py',
+   'PYMODULE'),
+  ('docx.text.paragraph',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/paragraph.py',
+   'PYMODULE'),
+  ('docx.text.parfmt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/parfmt.py',
+   'PYMODULE'),
+  ('docx.text.run',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/run.py',
+   'PYMODULE'),
+  ('docx.text.tabstops',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/text/tabstops.py',
+   'PYMODULE'),
+  ('docx.types',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/types.py',
+   'PYMODULE'),
+  ('email',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/generator.py',
+   'PYMODULE'),
+  ('email.header',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/message.py',
+   'PYMODULE'),
+  ('email.parser',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/email/utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/gettext.py',
+   'PYMODULE'),
+  ('glob', '/Users/alaelaaziri/anaconda3/lib/python3.11/glob.py', 'PYMODULE'),
+  ('gzip', '/Users/alaelaaziri/anaconda3/lib/python3.11/gzip.py', 'PYMODULE'),
+  ('hashlib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/hashlib.py',
+   'PYMODULE'),
+  ('hmac', '/Users/alaelaaziri/anaconda3/lib/python3.11/hmac.py', 'PYMODULE'),
+  ('html',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/html/__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/html/entities.py',
+   'PYMODULE'),
+  ('http',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/http/__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/http/client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/http/cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/http/server.py',
+   'PYMODULE'),
+  ('imghdr',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/imghdr.py',
+   'PYMODULE'),
+  ('importlib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/metadata/_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/resources/readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/importlib/util.py',
+   'PYMODULE'),
+  ('inspect',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/json/__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/json/decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/json/encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/json/scanner.py',
+   'PYMODULE'),
+  ('kivy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/__init__.py',
+   'PYMODULE'),
+  ('kivy._version',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/_version.py',
+   'PYMODULE'),
+  ('kivy.animation',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/animation.py',
+   'PYMODULE'),
+  ('kivy.app',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/app.py',
+   'PYMODULE'),
+  ('kivy.atlas',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/atlas.py',
+   'PYMODULE'),
+  ('kivy.base',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/base.py',
+   'PYMODULE'),
+  ('kivy.cache',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/cache.py',
+   'PYMODULE'),
+  ('kivy.clock',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/clock.py',
+   'PYMODULE'),
+  ('kivy.compat',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/compat.py',
+   'PYMODULE'),
+  ('kivy.config',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/config.py',
+   'PYMODULE'),
+  ('kivy.context',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/context.py',
+   'PYMODULE'),
+  ('kivy.core',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.audio',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_android',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_android.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_avplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_avplayer.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_ffpyplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_gstplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_gstplayer.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_pygame',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.camera',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_android',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/camera_android.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_gi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/camera_gi.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_opencv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/camera_opencv.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_picamera',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/camera_picamera.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard._clipboard_ext',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/_clipboard_ext.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_android',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_android.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_dbusklipper',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_dbusklipper.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_dummy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_dummy.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_gtk3',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_gtk3.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_nspaste',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_nspaste.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_pygame',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_sdl2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_sdl2.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_winctypes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_winctypes.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_xclip',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_xclip.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_xsel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/clipboard_xsel.py',
+   'PYMODULE'),
+  ('kivy.core.gl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/gl/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_dds',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_dds.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_ffpyplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_pil',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_pil.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_pygame',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_sdl2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_sdl2.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_tex.py',
+   'PYMODULE'),
+  ('kivy.core.spelling',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/spelling/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.spelling.spelling_enchant',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/spelling/spelling_enchant.py',
+   'PYMODULE'),
+  ('kivy.core.spelling.spelling_osxappkit',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/spelling/spelling_osxappkit.py',
+   'PYMODULE'),
+  ('kivy.core.text',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.text.markup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/markup.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pango',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/text_pango.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pil',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/text_pil.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pygame',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/text_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_sdl2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/text_sdl2.py',
+   'PYMODULE'),
+  ('kivy.core.video',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/video/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_ffmpeg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/video/video_ffmpeg.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_ffpyplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/video/video_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_gstplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/video/video_gstplayer.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_null',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/video/video_null.py',
+   'PYMODULE'),
+  ('kivy.core.window',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/__init__.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_egl_rpi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/window_egl_rpi.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_pygame',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/window_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_sdl2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/window_sdl2.py',
+   'PYMODULE'),
+  ('kivy.deps',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/deps/__init__.py',
+   'PYMODULE'),
+  ('kivy.effects',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/effects/__init__.py',
+   'PYMODULE'),
+  ('kivy.effects.dampedscroll',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/effects/dampedscroll.py',
+   'PYMODULE'),
+  ('kivy.effects.kinetic',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/effects/kinetic.py',
+   'PYMODULE'),
+  ('kivy.effects.opacityscroll',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/effects/opacityscroll.py',
+   'PYMODULE'),
+  ('kivy.effects.scroll',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/effects/scroll.py',
+   'PYMODULE'),
+  ('kivy.event',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/event.py',
+   'PYMODULE'),
+  ('kivy.eventmanager',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/eventmanager/__init__.py',
+   'PYMODULE'),
+  ('kivy.extras',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/extras/__init__.py',
+   'PYMODULE'),
+  ('kivy.extras.highlight',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/extras/highlight.py',
+   'PYMODULE'),
+  ('kivy.factory',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/factory.py',
+   'PYMODULE'),
+  ('kivy.factory_registers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/factory_registers.py',
+   'PYMODULE'),
+  ('kivy.gesture',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/gesture.py',
+   'PYMODULE'),
+  ('kivy.graphics',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/__init__.py',
+   'PYMODULE'),
+  ('kivy.graphics.cgl_backend',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/__init__.py',
+   'PYMODULE'),
+  ('kivy.input',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/__init__.py',
+   'PYMODULE'),
+  ('kivy.input.factory',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/factory.py',
+   'PYMODULE'),
+  ('kivy.input.motionevent',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/motionevent.py',
+   'PYMODULE'),
+  ('kivy.input.postproc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/__init__.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.calibration',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/calibration.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.dejitter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/dejitter.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.doubletap',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/doubletap.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.ignorelist',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/ignorelist.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.retaintouch',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/retaintouch.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.tripletap',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/postproc/tripletap.py',
+   'PYMODULE'),
+  ('kivy.input.provider',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/provider.py',
+   'PYMODULE'),
+  ('kivy.input.providers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/__init__.py',
+   'PYMODULE'),
+  ('kivy.input.providers.androidjoystick',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/androidjoystick.py',
+   'PYMODULE'),
+  ('kivy.input.providers.hidinput',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/hidinput.py',
+   'PYMODULE'),
+  ('kivy.input.providers.leapfinger',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/leapfinger.py',
+   'PYMODULE'),
+  ('kivy.input.providers.linuxwacom',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/linuxwacom.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mactouch',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/mactouch.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mouse',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/mouse.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mtdev',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/mtdev.py',
+   'PYMODULE'),
+  ('kivy.input.providers.probesysfs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/probesysfs.py',
+   'PYMODULE'),
+  ('kivy.input.providers.tuio',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/tuio.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_common',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/wm_common.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_pen',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/wm_pen.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_touch',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/providers/wm_touch.py',
+   'PYMODULE'),
+  ('kivy.input.shape',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/input/shape.py',
+   'PYMODULE'),
+  ('kivy.lang',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lang/__init__.py',
+   'PYMODULE'),
+  ('kivy.lang.builder',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lang/builder.py',
+   'PYMODULE'),
+  ('kivy.lang.parser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lang/parser.py',
+   'PYMODULE'),
+  ('kivy.lib',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lib/__init__.py',
+   'PYMODULE'),
+  ('kivy.lib.ddsfile',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lib/ddsfile.py',
+   'PYMODULE'),
+  ('kivy.lib.gstplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lib/gstplayer/__init__.py',
+   'PYMODULE'),
+  ('kivy.lib.mtdev',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lib/mtdev.py',
+   'PYMODULE'),
+  ('kivy.lib.vidcore_lite',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/lib/vidcore_lite/__init__.py',
+   'PYMODULE'),
+  ('kivy.loader',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/loader.py',
+   'PYMODULE'),
+  ('kivy.logger',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/logger.py',
+   'PYMODULE'),
+  ('kivy.metrics',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/metrics.py',
+   'PYMODULE'),
+  ('kivy.modules',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__init__.py',
+   'PYMODULE'),
+  ('kivy.multistroke',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/multistroke.py',
+   'PYMODULE'),
+  ('kivy.parser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/parser.py',
+   'PYMODULE'),
+  ('kivy.resources',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/resources.py',
+   'PYMODULE'),
+  ('kivy.setupconfig',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/setupconfig.py',
+   'PYMODULE'),
+  ('kivy.support',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/support.py',
+   'PYMODULE'),
+  ('kivy.uix',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.accordion',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/accordion.py',
+   'PYMODULE'),
+  ('kivy.uix.actionbar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/actionbar.py',
+   'PYMODULE'),
+  ('kivy.uix.anchorlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/anchorlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.button',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/button.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.codenavigation',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/codenavigation.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.compoundselection',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/compoundselection.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.cover',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/cover.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.drag',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/drag.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.emacs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/emacs.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.focus',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/focus.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.knspace',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/knspace.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.togglebutton',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/togglebutton.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.touchripple',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/behaviors/touchripple.py',
+   'PYMODULE'),
+  ('kivy.uix.boxlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/boxlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.bubble',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/bubble.py',
+   'PYMODULE'),
+  ('kivy.uix.button',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/button.py',
+   'PYMODULE'),
+  ('kivy.uix.camera',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/camera.py',
+   'PYMODULE'),
+  ('kivy.uix.carousel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/carousel.py',
+   'PYMODULE'),
+  ('kivy.uix.checkbox',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/checkbox.py',
+   'PYMODULE'),
+  ('kivy.uix.codeinput',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/codeinput.py',
+   'PYMODULE'),
+  ('kivy.uix.colorpicker',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/colorpicker.py',
+   'PYMODULE'),
+  ('kivy.uix.dropdown',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/dropdown.py',
+   'PYMODULE'),
+  ('kivy.uix.effectwidget',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/effectwidget.py',
+   'PYMODULE'),
+  ('kivy.uix.filechooser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/filechooser.py',
+   'PYMODULE'),
+  ('kivy.uix.floatlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/floatlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.gesturesurface',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/gesturesurface.py',
+   'PYMODULE'),
+  ('kivy.uix.gridlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/gridlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/image.py',
+   'PYMODULE'),
+  ('kivy.uix.label',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/label.py',
+   'PYMODULE'),
+  ('kivy.uix.layout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/layout.py',
+   'PYMODULE'),
+  ('kivy.uix.modalview',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/modalview.py',
+   'PYMODULE'),
+  ('kivy.uix.pagelayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/pagelayout.py',
+   'PYMODULE'),
+  ('kivy.uix.popup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/popup.py',
+   'PYMODULE'),
+  ('kivy.uix.progressbar',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/progressbar.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleboxlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleboxlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.recyclegridlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recyclegridlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.recyclelayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recyclelayout.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleview/__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.__init__',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleview/__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.datamodel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleview/datamodel.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.layout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleview/layout.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.views',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/recycleview/views.py',
+   'PYMODULE'),
+  ('kivy.uix.relativelayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/relativelayout.py',
+   'PYMODULE'),
+  ('kivy.uix.rst',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/rst.py',
+   'PYMODULE'),
+  ('kivy.uix.sandbox',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/sandbox.py',
+   'PYMODULE'),
+  ('kivy.uix.scatter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/scatter.py',
+   'PYMODULE'),
+  ('kivy.uix.scatterlayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/scatterlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.screenmanager',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/screenmanager.py',
+   'PYMODULE'),
+  ('kivy.uix.scrollview',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/scrollview.py',
+   'PYMODULE'),
+  ('kivy.uix.settings',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/settings.py',
+   'PYMODULE'),
+  ('kivy.uix.slider',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/slider.py',
+   'PYMODULE'),
+  ('kivy.uix.spinner',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/spinner.py',
+   'PYMODULE'),
+  ('kivy.uix.splitter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/splitter.py',
+   'PYMODULE'),
+  ('kivy.uix.stacklayout',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/stacklayout.py',
+   'PYMODULE'),
+  ('kivy.uix.stencilview',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/stencilview.py',
+   'PYMODULE'),
+  ('kivy.uix.switch',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/switch.py',
+   'PYMODULE'),
+  ('kivy.uix.tabbedpanel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/tabbedpanel.py',
+   'PYMODULE'),
+  ('kivy.uix.textinput',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/textinput.py',
+   'PYMODULE'),
+  ('kivy.uix.togglebutton',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/togglebutton.py',
+   'PYMODULE'),
+  ('kivy.uix.treeview',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/treeview.py',
+   'PYMODULE'),
+  ('kivy.uix.video',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/video.py',
+   'PYMODULE'),
+  ('kivy.uix.videoplayer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/videoplayer.py',
+   'PYMODULE'),
+  ('kivy.uix.vkeyboard',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/vkeyboard.py',
+   'PYMODULE'),
+  ('kivy.uix.widget',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/uix/widget.py',
+   'PYMODULE'),
+  ('kivy.utils',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/utils.py',
+   'PYMODULE'),
+  ('kivy.vector',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/vector.py',
+   'PYMODULE'),
+  ('kivy.weakmethod',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/weakmethod.py',
+   'PYMODULE'),
+  ('logging',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/logging/__init__.py',
+   'PYMODULE'),
+  ('lxml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/__init__.py',
+   'PYMODULE'),
+  ('lxml.ElementInclude',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/ElementInclude.py',
+   'PYMODULE'),
+  ('lxml.cssselect',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/cssselect.py',
+   'PYMODULE'),
+  ('lxml.doctestcompare',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/doctestcompare.py',
+   'PYMODULE'),
+  ('lxml.html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/__init__.py',
+   'PYMODULE'),
+  ('lxml.html.ElementSoup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/ElementSoup.py',
+   'PYMODULE'),
+  ('lxml.html._diffcommand',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/_diffcommand.py',
+   'PYMODULE'),
+  ('lxml.html._html5builder',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/_html5builder.py',
+   'PYMODULE'),
+  ('lxml.html._setmixin',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/_setmixin.py',
+   'PYMODULE'),
+  ('lxml.html.builder',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/builder.py',
+   'PYMODULE'),
+  ('lxml.html.clean',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/clean.py',
+   'PYMODULE'),
+  ('lxml.html.defs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/defs.py',
+   'PYMODULE'),
+  ('lxml.html.formfill',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/formfill.py',
+   'PYMODULE'),
+  ('lxml.html.html5parser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/html5parser.py',
+   'PYMODULE'),
+  ('lxml.html.soupparser',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/soupparser.py',
+   'PYMODULE'),
+  ('lxml.html.usedoctest',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/usedoctest.py',
+   'PYMODULE'),
+  ('lxml.includes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/includes/__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.extlibs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/includes/extlibs/__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libexslt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/includes/libexslt/__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/includes/libxml/__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxslt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/includes/libxslt/__init__.py',
+   'PYMODULE'),
+  ('lxml.isoschematron',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/__init__.py',
+   'PYMODULE'),
+  ('lxml.pyclasslookup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/pyclasslookup.py',
+   'PYMODULE'),
+  ('lxml.usedoctest',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/usedoctest.py',
+   'PYMODULE'),
+  ('lzma', '/Users/alaelaaziri/anaconda3/lib/python3.11/lzma.py', 'PYMODULE'),
+  ('mimetypes',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/dummy/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/dummy/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/multiprocessing/util.py',
+   'PYMODULE'),
+  ('netrc', '/Users/alaelaaziri/anaconda3/lib/python3.11/netrc.py', 'PYMODULE'),
+  ('nturl2path',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/opcode.py',
+   'PYMODULE'),
+  ('optparse',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/optparse.py',
+   'PYMODULE'),
+  ('pathlib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pathlib.py',
+   'PYMODULE'),
+  ('pdb', '/Users/alaelaaziri/anaconda3/lib/python3.11/pdb.py', 'PYMODULE'),
+  ('pickle',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/py_compile.py',
+   'PYMODULE'),
+  ('pydoc', '/Users/alaelaaziri/anaconda3/lib/python3.11/pydoc.py', 'PYMODULE'),
+  ('pydoc_data',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pydoc_data/__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/pydoc_data/topics.py',
+   'PYMODULE'),
+  ('pygments',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/__init__.py',
+   'PYMODULE'),
+  ('pygments.console',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/console.py',
+   'PYMODULE'),
+  ('pygments.filter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/filter.py',
+   'PYMODULE'),
+  ('pygments.filters',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/filters/__init__.py',
+   'PYMODULE'),
+  ('pygments.formatter',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatter.py',
+   'PYMODULE'),
+  ('pygments.formatters',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/__init__.py',
+   'PYMODULE'),
+  ('pygments.formatters._mapping',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/_mapping.py',
+   'PYMODULE'),
+  ('pygments.formatters.bbcode',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/bbcode.py',
+   'PYMODULE'),
+  ('pygments.formatters.groff',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/groff.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/html.py',
+   'PYMODULE'),
+  ('pygments.formatters.img',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/img.py',
+   'PYMODULE'),
+  ('pygments.formatters.irc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/irc.py',
+   'PYMODULE'),
+  ('pygments.formatters.latex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/latex.py',
+   'PYMODULE'),
+  ('pygments.formatters.other',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/other.py',
+   'PYMODULE'),
+  ('pygments.formatters.pangomarkup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/pangomarkup.py',
+   'PYMODULE'),
+  ('pygments.formatters.rtf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/rtf.py',
+   'PYMODULE'),
+  ('pygments.formatters.svg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/svg.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/terminal.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal256',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/formatters/terminal256.py',
+   'PYMODULE'),
+  ('pygments.lexer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexer.py',
+   'PYMODULE'),
+  ('pygments.lexers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/__init__.py',
+   'PYMODULE'),
+  ('pygments.lexers._ada_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_ada_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._cocoa_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_cocoa_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._css_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_css_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._julia_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_julia_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lasso_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_lasso_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lilypond_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_lilypond_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._luau_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_luau_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mapping',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_mapping.py',
+   'PYMODULE'),
+  ('pygments.lexers._mql_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_mql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._postgres_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_postgres_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._qlik_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_qlik_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scheme_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_scheme_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._sourcemod_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_sourcemod_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._usd_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_usd_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._vbscript_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_vbscript_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.ada',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ada.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/agile.py',
+   'PYMODULE'),
+  ('pygments.lexers.algebra',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/algebra.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ambient.py',
+   'PYMODULE'),
+  ('pygments.lexers.amdgpu',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/amdgpu.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.apdlexer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/apdlexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.archetype',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/archetype.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers.arturo',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/arturo.py',
+   'PYMODULE'),
+  ('pygments.lexers.asc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/asc.py',
+   'PYMODULE'),
+  ('pygments.lexers.asm',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.asn1',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/asn1.py',
+   'PYMODULE'),
+  ('pygments.lexers.automation',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/automation.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/bare.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/basic.py',
+   'PYMODULE'),
+  ('pygments.lexers.bdd',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/bdd.py',
+   'PYMODULE'),
+  ('pygments.lexers.berry',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/berry.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers.blueprint',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/blueprint.py',
+   'PYMODULE'),
+  ('pygments.lexers.boa',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/boa.py',
+   'PYMODULE'),
+  ('pygments.lexers.bqn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/bqn.py',
+   'PYMODULE'),
+  ('pygments.lexers.business',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/business.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/c_cpp.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/c_like.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers.carbon',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/carbon.py',
+   'PYMODULE'),
+  ('pygments.lexers.cddl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/cddl.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.clean',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/clean.py',
+   'PYMODULE'),
+  ('pygments.lexers.comal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/comal.py',
+   'PYMODULE'),
+  ('pygments.lexers.compiled',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/compiled.py',
+   'PYMODULE'),
+  ('pygments.lexers.configs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/configs.py',
+   'PYMODULE'),
+  ('pygments.lexers.console',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/console.py',
+   'PYMODULE'),
+  ('pygments.lexers.cplint',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/cplint.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/csound.py',
+   'PYMODULE'),
+  ('pygments.lexers.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/css.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/d.py',
+   'PYMODULE'),
+  ('pygments.lexers.dalvik',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dalvik.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/data.py',
+   'PYMODULE'),
+  ('pygments.lexers.dax',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dax.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/devicetree.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/diff.py',
+   'PYMODULE'),
+  ('pygments.lexers.dns',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dns.py',
+   'PYMODULE'),
+  ('pygments.lexers.dotnet',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dotnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.dsls',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dsls.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.ecl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ecl.py',
+   'PYMODULE'),
+  ('pygments.lexers.eiffel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.elpi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/elpi.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/email.py',
+   'PYMODULE'),
+  ('pygments.lexers.erlang',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/erlang.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.factor',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/factor.py',
+   'PYMODULE'),
+  ('pygments.lexers.fantom',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/fantom.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/felix.py',
+   'PYMODULE'),
+  ('pygments.lexers.fift',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/fift.py',
+   'PYMODULE'),
+  ('pygments.lexers.floscript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/floscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.forth',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/forth.py',
+   'PYMODULE'),
+  ('pygments.lexers.fortran',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/fortran.py',
+   'PYMODULE'),
+  ('pygments.lexers.foxpro',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/foxpro.py',
+   'PYMODULE'),
+  ('pygments.lexers.freefem',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.func',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/func.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/functional.py',
+   'PYMODULE'),
+  ('pygments.lexers.futhark',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/futhark.py',
+   'PYMODULE'),
+  ('pygments.lexers.gcodelexer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/gcodelexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/go.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/graph.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphql',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/graphql.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphviz',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/graphviz.py',
+   'PYMODULE'),
+  ('pygments.lexers.gsql',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/gsql.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/haskell.py',
+   'PYMODULE'),
+  ('pygments.lexers.haxe',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/haxe.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers.hexdump',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/html.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/idl.py',
+   'PYMODULE'),
+  ('pygments.lexers.igor',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/igor.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/installers.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/j.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers.jmespath',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/jmespath.py',
+   'PYMODULE'),
+  ('pygments.lexers.jslt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/jslt.py',
+   'PYMODULE'),
+  ('pygments.lexers.jsonnet',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/jsonnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.jsx',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/jsx.py',
+   'PYMODULE'),
+  ('pygments.lexers.julia',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/julia.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.kuin',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/kuin.py',
+   'PYMODULE'),
+  ('pygments.lexers.kusto',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/kusto.py',
+   'PYMODULE'),
+  ('pygments.lexers.ldap',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ldap.py',
+   'PYMODULE'),
+  ('pygments.lexers.lean',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/lean.py',
+   'PYMODULE'),
+  ('pygments.lexers.lilypond',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/lilypond.py',
+   'PYMODULE'),
+  ('pygments.lexers.lisp',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/lisp.py',
+   'PYMODULE'),
+  ('pygments.lexers.macaulay2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/macaulay2.py',
+   'PYMODULE'),
+  ('pygments.lexers.make',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/make.py',
+   'PYMODULE'),
+  ('pygments.lexers.markup',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/markup.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/math.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/matlab.py',
+   'PYMODULE'),
+  ('pygments.lexers.maxima',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/maxima.py',
+   'PYMODULE'),
+  ('pygments.lexers.meson',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/meson.py',
+   'PYMODULE'),
+  ('pygments.lexers.mime',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/mime.py',
+   'PYMODULE'),
+  ('pygments.lexers.minecraft',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/minecraft.py',
+   'PYMODULE'),
+  ('pygments.lexers.mips',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/mips.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers.mojo',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/mojo.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.ncl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ncl.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.nix',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/oberon.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/objective.py',
+   'PYMODULE'),
+  ('pygments.lexers.ooc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ooc.py',
+   'PYMODULE'),
+  ('pygments.lexers.openscad',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/openscad.py',
+   'PYMODULE'),
+  ('pygments.lexers.other',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/other.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.pascal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/pascal.py',
+   'PYMODULE'),
+  ('pygments.lexers.pawn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.perl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/perl.py',
+   'PYMODULE'),
+  ('pygments.lexers.phix',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/phix.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/php.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/pony.py',
+   'PYMODULE'),
+  ('pygments.lexers.praat',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/praat.py',
+   'PYMODULE'),
+  ('pygments.lexers.procfile',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/procfile.py',
+   'PYMODULE'),
+  ('pygments.lexers.prolog',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/prolog.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/promql.py',
+   'PYMODULE'),
+  ('pygments.lexers.prql',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/prql.py',
+   'PYMODULE'),
+  ('pygments.lexers.ptx',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ptx.py',
+   'PYMODULE'),
+  ('pygments.lexers.python',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/python.py',
+   'PYMODULE'),
+  ('pygments.lexers.q',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/q.py',
+   'PYMODULE'),
+  ('pygments.lexers.qlik',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/qlik.py',
+   'PYMODULE'),
+  ('pygments.lexers.qvt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/qvt.py',
+   'PYMODULE'),
+  ('pygments.lexers.r',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/r.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.ride',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.rita',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/rita.py',
+   'PYMODULE'),
+  ('pygments.lexers.rnc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/rnc.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.ruby',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.savi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/savi.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/scripting.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/sieve.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/slash.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.smithy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/smithy.py',
+   'PYMODULE'),
+  ('pygments.lexers.smv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/smv.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/solidity.py',
+   'PYMODULE'),
+  ('pygments.lexers.soong',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/soong.py',
+   'PYMODULE'),
+  ('pygments.lexers.sophia',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/sophia.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/special.py',
+   'PYMODULE'),
+  ('pygments.lexers.spice',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/spice.py',
+   'PYMODULE'),
+  ('pygments.lexers.sql',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/sql.py',
+   'PYMODULE'),
+  ('pygments.lexers.srcinfo',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/srcinfo.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/stata.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.tact',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tact.py',
+   'PYMODULE'),
+  ('pygments.lexers.tal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tal.py',
+   'PYMODULE'),
+  ('pygments.lexers.tcl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers.teal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/teal.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/templates.py',
+   'PYMODULE'),
+  ('pygments.lexers.teraterm',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/teraterm.py',
+   'PYMODULE'),
+  ('pygments.lexers.testing',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/testing.py',
+   'PYMODULE'),
+  ('pygments.lexers.text',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/text.py',
+   'PYMODULE'),
+  ('pygments.lexers.textedit',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/textedit.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.thingsdb',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/thingsdb.py',
+   'PYMODULE'),
+  ('pygments.lexers.tlb',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tlb.py',
+   'PYMODULE'),
+  ('pygments.lexers.tls',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tls.py',
+   'PYMODULE'),
+  ('pygments.lexers.tnt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/tnt.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.typst',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/typst.py',
+   'PYMODULE'),
+  ('pygments.lexers.ul4',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/ul4.py',
+   'PYMODULE'),
+  ('pygments.lexers.unicon',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/unicon.py',
+   'PYMODULE'),
+  ('pygments.lexers.urbi',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/urbi.py',
+   'PYMODULE'),
+  ('pygments.lexers.usd',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/usd.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/verification.py',
+   'PYMODULE'),
+  ('pygments.lexers.verifpal',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/verifpal.py',
+   'PYMODULE'),
+  ('pygments.lexers.vip',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/vip.py',
+   'PYMODULE'),
+  ('pygments.lexers.vyper',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/vyper.py',
+   'PYMODULE'),
+  ('pygments.lexers.web',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/web.py',
+   'PYMODULE'),
+  ('pygments.lexers.webassembly',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/webassembly.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.webmisc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/webmisc.py',
+   'PYMODULE'),
+  ('pygments.lexers.wgsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/wgsl.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/whiley.py',
+   'PYMODULE'),
+  ('pygments.lexers.wowtoc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/wowtoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.wren',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/wren.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/x10.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/yang.py',
+   'PYMODULE'),
+  ('pygments.lexers.yara',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/yara.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/lexers/zig.py',
+   'PYMODULE'),
+  ('pygments.modeline',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/modeline.py',
+   'PYMODULE'),
+  ('pygments.plugin',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/plugin.py',
+   'PYMODULE'),
+  ('pygments.regexopt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/regexopt.py',
+   'PYMODULE'),
+  ('pygments.scanner',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/scanner.py',
+   'PYMODULE'),
+  ('pygments.style',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/style.py',
+   'PYMODULE'),
+  ('pygments.styles',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/__init__.py',
+   'PYMODULE'),
+  ('pygments.styles._mapping',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/_mapping.py',
+   'PYMODULE'),
+  ('pygments.styles.abap',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/abap.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/algol.py',
+   'PYMODULE'),
+  ('pygments.styles.algol_nu',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/algol_nu.py',
+   'PYMODULE'),
+  ('pygments.styles.arduino',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/arduino.py',
+   'PYMODULE'),
+  ('pygments.styles.autumn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/autumn.py',
+   'PYMODULE'),
+  ('pygments.styles.borland',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/borland.py',
+   'PYMODULE'),
+  ('pygments.styles.bw',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/bw.py',
+   'PYMODULE'),
+  ('pygments.styles.coffee',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/coffee.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.default',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/default.py',
+   'PYMODULE'),
+  ('pygments.styles.dracula',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/dracula.py',
+   'PYMODULE'),
+  ('pygments.styles.emacs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/emacs.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/friendly.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly_grayscale',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/friendly_grayscale.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.gh_dark',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/gh_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.gruvbox',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/gruvbox.py',
+   'PYMODULE'),
+  ('pygments.styles.igor',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/igor.py',
+   'PYMODULE'),
+  ('pygments.styles.inkpot',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/inkpot.py',
+   'PYMODULE'),
+  ('pygments.styles.lightbulb',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/lightbulb.py',
+   'PYMODULE'),
+  ('pygments.styles.lilypond',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/lilypond.py',
+   'PYMODULE'),
+  ('pygments.styles.lovelace',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/lovelace.py',
+   'PYMODULE'),
+  ('pygments.styles.manni',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/manni.py',
+   'PYMODULE'),
+  ('pygments.styles.material',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/material.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/monokai.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/murphy.py',
+   'PYMODULE'),
+  ('pygments.styles.native',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/native.py',
+   'PYMODULE'),
+  ('pygments.styles.nord',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/nord.py',
+   'PYMODULE'),
+  ('pygments.styles.onedark',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/onedark.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_dark',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/paraiso_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_light',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/paraiso_light.py',
+   'PYMODULE'),
+  ('pygments.styles.pastie',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/pastie.py',
+   'PYMODULE'),
+  ('pygments.styles.perldoc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/perldoc.py',
+   'PYMODULE'),
+  ('pygments.styles.rainbow_dash',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/rainbow_dash.py',
+   'PYMODULE'),
+  ('pygments.styles.rrt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/rrt.py',
+   'PYMODULE'),
+  ('pygments.styles.sas',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/sas.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/solarized.py',
+   'PYMODULE'),
+  ('pygments.styles.staroffice',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/staroffice.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_light',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.tango',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/tango.py',
+   'PYMODULE'),
+  ('pygments.styles.trac',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/trac.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/vim.py',
+   'PYMODULE'),
+  ('pygments.styles.vs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/vs.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.zenburn',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/styles/zenburn.py',
+   'PYMODULE'),
+  ('pygments.token',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/token.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/unistring.py',
+   'PYMODULE'),
+  ('pygments.util',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/pygments/util.py',
+   'PYMODULE'),
+  ('queue', '/Users/alaelaaziri/anaconda3/lib/python3.11/queue.py', 'PYMODULE'),
+  ('quopri',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/quopri.py',
+   'PYMODULE'),
+  ('random',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/random.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/rlcompleter.py',
+   'PYMODULE'),
+  ('runpy', '/Users/alaelaaziri/anaconda3/lib/python3.11/runpy.py', 'PYMODULE'),
+  ('secrets',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/selectors.py',
+   'PYMODULE'),
+  ('shlex', '/Users/alaelaaziri/anaconda3/lib/python3.11/shlex.py', 'PYMODULE'),
+  ('shutil',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/shutil.py',
+   'PYMODULE'),
+  ('signal',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/signal.py',
+   'PYMODULE'),
+  ('site', '/Users/alaelaaziri/anaconda3/lib/python3.11/site.py', 'PYMODULE'),
+  ('socket',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/socketserver.py',
+   'PYMODULE'),
+  ('ssl', '/Users/alaelaaziri/anaconda3/lib/python3.11/ssl.py', 'PYMODULE'),
+  ('statistics',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/statistics.py',
+   'PYMODULE'),
+  ('string',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/string.py',
+   'PYMODULE'),
+  ('stringprep',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/threading.py',
+   'PYMODULE'),
+  ('token', '/Users/alaelaaziri/anaconda3/lib/python3.11/token.py', 'PYMODULE'),
+  ('tokenize',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/tracemalloc.py',
+   'PYMODULE'),
+  ('tty', '/Users/alaelaaziri/anaconda3/lib/python3.11/tty.py', 'PYMODULE'),
+  ('typing',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/typing_extensions.py',
+   'PYMODULE'),
+  ('unittest',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/main.py',
+   'PYMODULE'),
+  ('unittest.result',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/unittest/util.py',
+   'PYMODULE'),
+  ('urllib',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/urllib/__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/urllib/error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/urllib/parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/urllib/request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/urllib/response.py',
+   'PYMODULE'),
+  ('webbrowser',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/webbrowser.py',
+   'PYMODULE'),
+  ('xml',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/dom/xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/etree/__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/etree/ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/etree/ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/etree/ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/etree/cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/parsers/__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/parsers/expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xml/sax/xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xmlrpc/__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/xmlrpc/client.py',
+   'PYMODULE'),
+  ('zipfile',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/zipimport.py',
+   'PYMODULE')])

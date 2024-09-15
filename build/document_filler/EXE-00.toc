@@ -1,0 +1,1177 @@
+('/Users/alaelaaziri/Desktop/doc filler/dist/document_filler',
+ False,
+ False,
+ False,
+ ['/Users/alaelaaziri/Desktop/doc filler/logo.icns'],
+ None,
+ False,
+ False,
+ None,
+ True,
+ False,
+ 'arm64',
+ None,
+ None,
+ '/Users/alaelaaziri/Desktop/doc '
+ 'filler/build/document_filler/document_filler.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   '/Users/alaelaaziri/Desktop/doc filler/build/document_filler/PYZ-00.pyz',
+   'PYZ'),
+  ('lib-dynload/_struct.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_struct.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/zlib.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/zlib.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('struct',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/build/document_filler/localpycs/struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/build/document_filler/localpycs/pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/build/document_filler/localpycs/pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/build/document_filler/localpycs/pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_kivy',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_kivy.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_gstreamer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_gstreamer.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('document_filler',
+   '/Users/alaelaaziri/Desktop/doc filler/document_filler.py',
+   'PYSOURCE'),
+  ('libpython3.11.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libpython3.11.dylib',
+   'BINARY'),
+  ('lib-dynload/_typing.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_typing.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_statistics.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_statistics.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_contextvars.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_decimal.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_hashlib.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_sha3.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_sha3.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_blake2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_sha256.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_sha256.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_md5.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_md5.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_sha1.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_sha1.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_sha512.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_sha512.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_random.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_random.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_bisect.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_bisect.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/math.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/math.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/grp.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/grp.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/resource.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/resource.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_lzma.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_lzma.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_bz2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_bz2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/unicodedata.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/unicodedata.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/array.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/array.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/select.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/select.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_socket.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_socket.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_csv.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_csv.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/binascii.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/binascii.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_opcode.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_opcode.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_posixsubprocess.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/fcntl.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_posixshmem.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_posixshmem.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_multiprocessing.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_multiprocessing.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/pyexpat.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/pyexpat.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_scproxy.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_scproxy.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/termios.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/termios.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_ssl.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_ssl.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/mmap.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/mmap.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_ctypes.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_ctypes.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_queue.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_queue.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_pickle.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_pickle.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/_event.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/_event.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/image/_img_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/_img_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/window/window_info.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/window_info.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/opengl.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/opengl.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/text/text_layout.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/text_layout.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_asyncio.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_asyncio.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/_clock.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/_clock.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/context.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/context.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/clipboard/_clipboard_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/clipboard/_clipboard_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/_metrics.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/_metrics.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/buffer.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/buffer.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/shader.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/shader.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl_backend/cgl_glew.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/cgl_glew.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/weakproxy.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/weakproxy.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/window/_window_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/window/_window_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/opengl_utils.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/opengl_utils.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl_backend/cgl_gl.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/cgl_gl.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/properties.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/properties.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/scissor_instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/scissor_instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/text/_text_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/text/_text_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl_backend/cgl_mock.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/cgl_mock.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/fbo.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/fbo.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/camera/camera_avfoundation.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/camera/camera_avfoundation.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/texture.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/texture.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/vbo.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/vbo.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/context_instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/context_instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/transformation.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/transformation.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/boxshadow.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/boxshadow.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/compiler.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/compiler.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/svg.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/svg.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/image/img_imageio.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/image/img_imageio.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/core/audio/audio_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/core/audio/audio_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl_backend/cgl_sdl2.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/tesselator.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/tesselator.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/gl_instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/gl_instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/vertex_instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/vertex_instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_elementtree.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_elementtree.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/stencil_instructions.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/stencil_instructions.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/vertex.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/vertex.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('kivy/graphics/cgl_backend/cgl_debug.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/graphics/cgl_backend/cgl_debug.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/readline.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/readline.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_heapq.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_heapq.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_multibytecodec.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_multibytecodec.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_jp.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_jp.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_kr.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_kr.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_iso2022.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_iso2022.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_cn.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_cn.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_tw.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_tw.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_hk.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_codecs_hk.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/etree.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/etree.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/_elementpath.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/_elementpath.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/sax.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/sax.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/objectify.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/objectify.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/html/diff.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/html/diff.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lxml/builder.cpython-311-darwin.so',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/builder.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_json.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('lib-dynload/_datetime.cpython-311-darwin.so',
+   '/Users/alaelaaziri/anaconda3/lib/python3.11/lib-dynload/_datetime.cpython-311-darwin.so',
+   'EXTENSION'),
+  ('libz.1.dylib', '/Users/alaelaaziri/anaconda3/lib/libz.1.dylib', 'BINARY'),
+  ('libcrypto.3.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libcrypto.3.dylib',
+   'BINARY'),
+  ('liblzma.5.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/liblzma.5.dylib',
+   'BINARY'),
+  ('libbz2.dylib', '/Users/alaelaaziri/anaconda3/lib/libbz2.dylib', 'BINARY'),
+  ('libssl.3.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libssl.3.dylib',
+   'BINARY'),
+  ('libffi.8.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libffi.8.dylib',
+   'BINARY'),
+  ('kivy/.dylibs/SDL2_image',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/.dylibs/SDL2_image',
+   'BINARY'),
+  ('kivy/.dylibs/SDL2',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/.dylibs/SDL2',
+   'BINARY'),
+  ('kivy/.dylibs/SDL2_mixer',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/.dylibs/SDL2_mixer',
+   'BINARY'),
+  ('kivy/.dylibs/SDL2_ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/.dylibs/SDL2_ttf',
+   'BINARY'),
+  ('libreadline.8.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libreadline.8.dylib',
+   'BINARY'),
+  ('kivy/.dylibs/png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/.dylibs/png',
+   'BINARY'),
+  ('libncursesw.6.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libncursesw.6.dylib',
+   'BINARY'),
+  ('libtinfow.6.dylib',
+   '/Users/alaelaaziri/anaconda3/lib/libtinfow.6.dylib',
+   'BINARY'),
+  ('app.log', '/Users/alaelaaziri/Desktop/doc filler/app.log', 'DATA'),
+  ('cons_ids.txt',
+   '/Users/alaelaaziri/Desktop/doc filler/cons_ids.txt',
+   'DATA'),
+  ('descriptions.txt',
+   '/Users/alaelaaziri/Desktop/doc filler/descriptions.txt',
+   'DATA'),
+  ('dropdown_options.json',
+   '/Users/alaelaaziri/Desktop/doc filler/dropdown_options.json',
+   'DATA'),
+  ('filldoc.docm',
+   '/Users/alaelaaziri/Desktop/doc filler/filldoc.docm',
+   'DATA'),
+  ('filldoc.docx',
+   '/Users/alaelaaziri/Desktop/doc filler/filldoc.docx',
+   'DATA'),
+  ('flights.txt', '/Users/alaelaaziri/Desktop/doc filler/flights.txt', 'DATA'),
+  ('names.txt', '/Users/alaelaaziri/Desktop/doc filler/names.txt', 'DATA'),
+  ('tags.txt', '/Users/alaelaaziri/Desktop/doc filler/tags.txt', 'DATA'),
+  ('user_selections.txt',
+   '/Users/alaelaaziri/Desktop/doc filler/user_selections.txt',
+   'DATA'),
+  ('base_library.zip',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/build/document_filler/base_library.zip',
+   'DATA'),
+  ('kivy_install/data/glsl/header.vs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/glsl/header.vs',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/joycursor.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/joycursor.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/style.kv',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/style.kv',
+   'DATA'),
+  ('kivy_install/data/keyboards/fr_CH.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/fr_CH.json',
+   'DATA'),
+  ('kivy_install/modules/joycursor.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/joycursor.py',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/inspector.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/inspector.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/fonts/DejaVuSans.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/DejaVuSans.ttf',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/keybinding.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/keybinding.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/keyboards/de.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/de.json',
+   'DATA'),
+  ('kivy_install/data/glsl/default.vs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/glsl/default.vs',
+   'DATA'),
+  ('kivy_install/modules/showborder.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/showborder.py',
+   'DATA'),
+  ('kivy_install/modules/keybinding.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/keybinding.py',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/console.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/console.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/keyboards/de_CH.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/de_CH.json',
+   'DATA'),
+  ('kivy_install/data/fonts/Roboto-Regular.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/Roboto-Regular.ttf',
+   'DATA'),
+  ('kivy_install/data/fonts/Roboto-Bold.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/Roboto-Bold.ttf',
+   'DATA'),
+  ('kivy_install/data/images/image-loading.gif',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/image-loading.gif',
+   'DATA'),
+  ('kivy_install/data/fonts/Roboto-Italic.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/Roboto-Italic.ttf',
+   'DATA'),
+  ('kivy_install/data/images/defaulttheme.atlas',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/defaulttheme.atlas',
+   'DATA'),
+  ('kivy_install/data/keyboards/qwerty.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/qwerty.json',
+   'DATA'),
+  ('kivy_install/data/images/image-loading.zip',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/image-loading.zip',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-24.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-24.png',
+   'DATA'),
+  ('kivy_install/data/keyboards/azerty.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/azerty.json',
+   'DATA'),
+  ('kivy_install/modules/monitor.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/monitor.py',
+   'DATA'),
+  ('kivy_install/modules/webdebugger.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/webdebugger.py',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-48.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-48.png',
+   'DATA'),
+  ('kivy_install/modules/_webdebugger.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/_webdebugger.py',
+   'DATA'),
+  ('kivy_install/data/images/defaultshape.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/defaultshape.png',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/touchring.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/touchring.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/images/background.jpg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/background.jpg',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-32.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-32.png',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-128.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-128.png',
+   'DATA'),
+  ('kivy_install/data/fonts/RobotoMono-Regular.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/RobotoMono-Regular.ttf',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-64.ico',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-64.ico',
+   'DATA'),
+  ('kivy_install/modules/__init__.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__init__.py',
+   'DATA'),
+  ('kivy_install/data/settings_kivy.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/settings_kivy.json',
+   'DATA'),
+  ('kivy_install/modules/cursor.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/cursor.py',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/cursor.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/cursor.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/_webdebugger.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/_webdebugger.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/recorder.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/recorder.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/monitor.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/monitor.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/glsl/default.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/glsl/default.png',
+   'DATA'),
+  ('kivy_install/modules/inspector.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/inspector.py',
+   'DATA'),
+  ('kivy_install/data/keyboards/qwertz.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/qwertz.json',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-256.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-256.png',
+   'DATA'),
+  ('kivy_install/data/images/testpattern.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/testpattern.png',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-16.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-16.png',
+   'DATA'),
+  ('kivy_install/data/glsl/header.fs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/glsl/header.fs',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-64.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-64.png',
+   'DATA'),
+  ('kivy_install/data/fonts/Roboto-BoldItalic.ttf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/fonts/Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/webdebugger.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/webdebugger.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/screen.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/screen.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/recorder.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/recorder.py',
+   'DATA'),
+  ('kivy_install/data/keyboards/es_ES.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/es_ES.json',
+   'DATA'),
+  ('kivy_install/data/images/defaulttheme-0.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/defaulttheme-0.png',
+   'DATA'),
+  ('kivy_install/modules/screen.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/screen.py',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/showborder.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/showborder.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/modules/__pycache__/__init__.cpython-311.pyc',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('kivy_install/data/glsl/default.fs',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/glsl/default.fs',
+   'DATA'),
+  ('kivy_install/data/logo/kivy-icon-512.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/logo/kivy-icon-512.png',
+   'DATA'),
+  ('kivy_install/modules/console.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/console.py',
+   'DATA'),
+  ('kivy_install/modules/touchring.py',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/modules/touchring.py',
+   'DATA'),
+  ('kivy_install/data/images/cursor.png',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/images/cursor.png',
+   'DATA'),
+  ('kivy_install/data/keyboards/en_US.json',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/kivy/data/keyboards/en_US.json',
+   'DATA'),
+  ('certifi/py.typed',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/certifi/py.typed',
+   'DATA'),
+  ('certifi/cacert.pem',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/certifi/cacert.pem',
+   'DATA'),
+  ('docutils/parsers/rst/include/isodia.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isodia.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/medium-white/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-white/pretty.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamsb.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsb.txt',
+   'DATA'),
+  ('docutils/writers/latex2e/xelatex.tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/xelatex.tex',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamsa.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsa.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/xhtml1-lat1.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-lat1.txt',
+   'DATA'),
+  ('docutils/writers/html4css1/template.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html4css1/template.txt',
+   'DATA'),
+  ('docutils/writers/html4css1/html4css1.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html4css1/html4css1.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/big-white/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-white/pretty.css',
+   'DATA'),
+  ('docutils/writers/latex2e/titlingpage.tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/titlingpage.tex',
+   'DATA'),
+  ('docutils/parsers/rst/include/isogrk4.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk4.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isogrk2.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk2.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/medium-black/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-black/pretty.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/s5defs.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/s5defs.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/slides.js',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/slides.js',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/slides.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/slides.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/print.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/print.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isotech.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isotech.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamsn.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsn.txt',
+   'DATA'),
+  ('docutils/docutils.conf',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/docutils.conf',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamsr.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsr.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isocyr2.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isocyr2.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isogrk3.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk3.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/big-white/framing.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-white/framing.css',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/minimal.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/minimal.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomscr.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomscr.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/medium-white/framing.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-white/framing.css',
+   'DATA'),
+  ('docutils/writers/latex2e/docutils.sty',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/docutils.sty',
+   'DATA'),
+  ('docutils/writers/latex2e/default.tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/default.tex',
+   'DATA'),
+  ('docutils/parsers/rst/include/isolat1.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isolat1.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomopf-wide.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomopf-wide.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/opera.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/opera.css',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/italic-field-names.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/italic-field-names.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isonum.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isonum.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/s5-core.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/s5-core.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/small-white/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-white/pretty.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/framing.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/framing.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isocyr1.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isocyr1.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/outline.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/outline.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/big-black/framing.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/framing.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/README.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/README.txt',
+   'DATA'),
+  ('docutils/writers/pep_html/pep.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/pep_html/pep.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/mmlextra.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlextra.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomscr-wide.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomscr-wide.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isolat2.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isolat2.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomfrk-wide.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomfrk-wide.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isogrk4-wide.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk4-wide.txt',
+   'DATA'),
+  ('docutils/writers/odf_odt/styles.odt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/odf_odt/styles.odt',
+   'DATA'),
+  ('docutils/writers/latex2e/titlepage.tex',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/latex2e/titlepage.tex',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamso.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamso.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isoamsc.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsc.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isopub.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isopub.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/mmlalias.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlalias.txt',
+   'DATA'),
+  ('docutils/writers/pep_html/template.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/pep_html/template.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isogrk1.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk1.txt',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/math.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/math.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/medium-black/__base__',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-black/__base__',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/responsive.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/responsive.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomfrk.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomfrk.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/xhtml1-symbol.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-symbol.txt',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/template.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/template.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isomopf.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isomopf.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/big-black/__base__',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/__base__',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/small-black/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-black/pretty.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/small-black/__base__',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-black/__base__',
+   'DATA'),
+  ('docutils/parsers/rst/include/xhtml1-special.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-special.txt',
+   'DATA'),
+  ('docutils/parsers/rst/include/isobox.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/isobox.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/small-white/framing.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-white/framing.css',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/plain.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/plain.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/big-black/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/pretty.css',
+   'DATA'),
+  ('docutils/writers/html5_polyglot/tuftig.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/html5_polyglot/tuftig.css',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/README.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/README.txt',
+   'DATA'),
+  ('docutils/writers/s5_html/themes/default/pretty.css',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/pretty.css',
+   'DATA'),
+  ('docutils/parsers/rst/include/mmlextra-wide.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlextra-wide.txt',
+   'DATA'),
+  ('lxml/isoschematron/resources/rng/iso-schematron.rng',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/rng/iso-schematron.rng',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt',
+   'DATA'),
+  ('lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl',
+   'DATA'),
+  ('docx/templates/default-docx-template/_rels/.rels',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/_rels/.rels',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/stylesWithEffects.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/stylesWithEffects.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/theme/theme1.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/theme/theme1.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/customXml/_rels/item1.xml.rels',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/customXml/_rels/item1.xml.rels',
+   'DATA'),
+  ('docx/templates/default-docx-template/docProps/core.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/docProps/core.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/docProps/thumbnail.jpeg',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/docProps/thumbnail.jpeg',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/fontTable.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/fontTable.xml',
+   'DATA'),
+  ('docx/templates/default-settings.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-settings.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/customXml/itemProps1.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/customXml/itemProps1.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/customXml/item1.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/customXml/item1.xml',
+   'DATA'),
+  ('docx/templates/default.docx',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default.docx',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/styles.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/styles.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/_rels/document.xml.rels',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/_rels/document.xml.rels',
+   'DATA'),
+  ('docx/templates/default-styles.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-styles.xml',
+   'DATA'),
+  ('docx/templates/default-header.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-header.xml',
+   'DATA'),
+  ('docx/templates/default-footer.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-footer.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/docProps/app.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/docProps/app.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/settings.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/settings.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/[Content_Types].xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/[Content_Types].xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/numbering.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/numbering.xml',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/webSettings.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/webSettings.xml',
+   'DATA'),
+  ('docx/py.typed',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/py.typed',
+   'DATA'),
+  ('docx/templates/default-docx-template/word/document.xml',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/docx/templates/default-docx-template/word/document.xml',
+   'DATA'),
+  ('SDL2_image', 'kivy/.dylibs/SDL2_image', 'SYMLINK'),
+  ('SDL2', 'kivy/.dylibs/SDL2', 'SYMLINK'),
+  ('SDL2_mixer', 'kivy/.dylibs/SDL2_mixer', 'SYMLINK'),
+  ('SDL2_ttf', 'kivy/.dylibs/SDL2_ttf', 'SYMLINK'),
+  ('png', 'kivy/.dylibs/png', 'SYMLINK')],
+ [],
+ False,
+ False,
+ 1726354136,
+ [('runw',
+   '/Users/alaelaaziri/Desktop/doc '
+   'filler/kivy_env/lib/python3.11/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',
+   'EXECUTABLE')],
+ '/Users/alaelaaziri/anaconda3/lib/libpython3.11.dylib')

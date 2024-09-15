@@ -1,0 +1,3 @@
+([('document_filler',
+   '/Users/alaelaaziri/Desktop/doc filler/dist/document_filler',
+   'EXECUTABLE')],)
