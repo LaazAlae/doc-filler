@@ -10,11 +10,11 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-
+      
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -23,6 +23,7 @@ jobs:
 
       - name: Build executable
         run: |
+          set KIVY_GL_BACKEND=angle_sdl2
           pyinstaller --onefile --windowed --icon=logo.ico --hidden-import=kivy --hidden-import=docx --hidden-import=kivy.deps.sdl2 --hidden-import=kivy.deps.angle --hidden-import=kivy.deps.glew --hidden-import=kivy.deps.gstreamer --add-data "cons_ids.txt;." --add-data "descriptions.txt;." --add-data "dropdown_options.json;." --add-data "filldoc.docm;." --add-data "filldoc.docx;." --add-data "flights.txt;." --add-data "names.txt;." --add-data "tags.txt;." --add-data "user_selections.txt;." --add-data "app.log;." document_filler.py
 
       - name: Upload executable
