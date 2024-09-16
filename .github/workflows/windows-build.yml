@@ -17,10 +17,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller
+          pip install pyinstaller kivy[base] kivy.deps.sdl2 kivy.deps.glew kivy.deps.angle kivy.deps.gstreamer
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --icon=logo.ico --hidden-import=kivy --hidden-import=docx --hidden-import=kivy.deps.sdl2 --add-data "cons_ids.txt;." --add-data "descriptions.txt;." --add-data "dropdown_options.json;." --add-data "filldoc.docm;." --add-data "filldoc.docx;." --add-data "flights.txt;." --add-data "names.txt;." --add-data "tags.txt;." --add-data "user_selections.txt;." --add-data "app.log;." document_filler.py
+          pyinstaller --onefile --windowed --icon=logo.ico --hidden-import=kivy --hidden-import=docx --hidden-import=kivy.deps.sdl2 --hidden-import=kivy.deps.angle --hidden-import=kivy.deps.glew --hidden-import=kivy.deps.gstreamer --add-data "cons_ids.txt;." --add-data "descriptions.txt;." --add-data "dropdown_options.json;." --add-data "filldoc.docm;." --add-data "filldoc.docx;." --add-data "flights.txt;." --add-data "names.txt;." --add-data "tags.txt;." --add-data "user_selections.txt;." --add-data "app.log;." document_filler.py
       - name: Upload executable
         uses: actions/upload-artifact@v3
         with:
