@@ -14,7 +14,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.11.9'
 
       - name: Install dependencies
         run: |
@@ -25,4 +25,17 @@ jobs:
         run: |
           # Set the Kivy backend and enable debug flags to capture more logs
           $env:KIVY_GL_BACKEND = 'angle_sdl2'
-          pyinstaller --onefile --windowed --icon=logo.ico --debug=all --hidden-import=kivy --hidden-import=kivy.uix.boxlayout --hidden-import=kivy.uix.label --hidden-import=kivy.uix.textinput --hidden-import=kivy.uix.button --hidden-import=kivy.uix.dropdown --hidden-import=kivy.uix.scrollview --hidden-import=kivy.uix.popup --hidden-import=kivy.uix.spinner --hidden-import=kivy.uix.widget --hidden-import=kivy.graphics --hidden-import=docx --hidden-import=kivy.deps.sdl2 --hidden-import=kivy.deps.angle --hidden-import=kivy.deps.glew --hidden-import=kivy.deps.gstreamer​⬤
+          
+          # PyInstaller command with the correct scriptname at the end
+          pyinstaller --onefile --windowed --icon=logo.ico --debug=all --hidden-import=kivy --hidden-import=kivy.uix.boxlayout --hidden-import=kivy.uix.label --hidden-import=kivy.uix.textinput --hidden-import=kivy.uix.button --hidden-import=kivy.uix.dropdown --hidden-import=kivy.uix.scrollview --hidden-import=kivy.uix.popup --hidden-import=kivy.uix.spinner --hidden-import=kivy.uix.widget --hidden-import=kivy.graphics --hidden-import=docx --hidden-import=kivy.deps.sdl2 --hidden-import=kivy.deps.angle --hidden-import=kivy.deps.glew --hidden-import=kivy.deps.gstreamer --add-data "cons_ids.txt;." --add-data "descriptions.txt;." --add-data "dropdown_options.json;." --add-data "filldoc.docm;." --add-data "filldoc.docx;." --add-data "flights.txt;." --add-data "names.txt;." --add-data "tags.txt;." --add-data "user_selections.txt;." --add-data "app.log;." document_filler.py
+
+      # Debug: Print build logs for troubleshooting
+      - name: Print build logs
+        run: cat dist/document_filler.spec
+
+      # Upload the executable for testing
+      - name: Upload executable
+        uses: actions/upload-artifact@v3
+        with:
+          name: document_filler.exe
+          path: dist/document_filler.exe
