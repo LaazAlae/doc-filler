@@ -11,16 +11,25 @@ from kivy.uix.scrollview import ScrollView
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.spinner import Spinner
-from docx import Document
-from docx.shared import Pt
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.shared import RGBColor
 from kivy.uix.widget import Widget
 from kivy.graphics import Color, RoundedRectangle
+from kivy.uix.filechooser import FileChooserIconView
+from kivy.clock import Clock
+
+
+
+from docx import Document
+from docx.shared import Pt, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_ALIGN_VERTICAL
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+
 import logging
 from kivy.logger import Logger
 import sys
-
+import platform
+import subprocess
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
@@ -99,37 +108,51 @@ def fill_placeholders(doc_path, output_path, word_list):
                 run.font.color.rgb = RGBColor(0, 0, 0)
                 word_index += 1
 
-    # Assuming the table is the first table in the document
     table = doc.tables[0]
-    tag_start_index = 5  # Tags and descriptions start after the flight number
+    tag_start_index = 5 
+    # Assuming the table is the first table in the document
     for i in range(num_boxes):
         row = table.add_row()
+        table._tbl.insert(1, row._tr)
+
+        # Set the row height to exactly 0.32 inches
+        tr = row._tr  # Access the row's XML element
+        trPr = tr.get_or_add_trPr()  # Get or create the row properties element
+        trHeight = OxmlElement('w:trHeight')  # Create a row height element
+        trHeight.set(qn('w:val'), str(int(Inches(0.000509090909091))))  # Convert 0.32 inches to twips (1 inch = 1440 twips)
+        trHeight.set(qn('w:hRule'), 'exact')  # Set the height rule to 'exact'
+        trPr.append(trHeight)  # Append the height element to the row properties
 
         # Add the tag to the first column (left cell)
         cell_1 = row.cells[1]
         tag_value = word_list[tag_start_index + 2 * i]  # Every 2nd item is a tag
         paragraph_1 = cell_1.paragraphs[0]
-        run_1 = paragraph_1.add_run(f"\n{tag_value}\n")
+        run_1 = paragraph_1.add_run(f"{tag_value}")
         run_1.font.size = Pt(14)
         run_1.font.color.rgb = RGBColor(0, 0, 0)  # Set text color to black
         paragraph_1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cell_1.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
 
         # Add the description to the second column (right cell)
         cell_2 = row.cells[0]
         description_value = word_list[tag_start_index + 2 * i + 1]  # Every other item is a description
         paragraph_2 = cell_2.paragraphs[0]
-        run_2 = paragraph_2.add_run(f"\n{description_value}\n")
+        run_2 = paragraph_2.add_run(f"{description_value}")
         run_2.font.size = Pt(14)
         run_2.font.color.rgb = RGBColor(0, 0, 0)  # Set text color to black
         paragraph_2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cell_2.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
 
+    # Save the document
     doc.save(output_path)
 
 
 class ProfessionalApp(App):
     def build(self):
+        self.input_doc = None
         scroll_view = ScrollView(size_hint=(1, None), size=(Window.width, Window.height))
-        self.options = OPTIONS  # Store options in the app instance
+        self.options = OPTIONS   # Store options in the a
+        Window.bind(on_drop_file=self._on_file_drop)
 
         self.main_layout = BoxLayout(orientation='vertical', padding=30, spacing=20, size_hint_y=None)
         self.main_layout.bind(minimum_height=self.main_layout.setter('height'))
@@ -178,6 +201,19 @@ class ProfessionalApp(App):
         self.dynamic_inputs_container = BoxLayout(orientation='vertical', spacing=10, size_hint_y=None)
         self.dynamic_inputs_container.bind(minimum_height=self.dynamic_inputs_container.setter('height'))
         self.main_layout.add_widget(self.dynamic_inputs_container)
+
+        # Add a button to upload document with heartbeat effect
+        self.upload_doc_button = Button(
+            text="drag and drop document (.docx)",
+            size_hint=(1, None), height=50,
+            background_color=(1, 0, 0, 1)  # Initial color (red)
+        )
+        self.upload_doc_button.bind(on_release=self.show_file_chooser)  # Bind to show file chooser
+        self.main_layout.add_widget(self.upload_doc_button)
+
+        # Start the heartbeat effect
+        self.document_selected = False
+        self.heartbeat_event = Clock.schedule_interval(self.heartbeat_effect, 0.5) 
 
         # Submit button
         self.submit_button = Button(text="Submit", size_hint=(None, None), size=(200, 50), pos_hint={'center_x': 0.5}, background_normal='', background_color=(0.3, 0.5, 0.7, 1), color=(1, 1, 1, 1))
@@ -242,9 +278,34 @@ class ProfessionalApp(App):
             size=(400, 300)
         )
         
-        add_button.bind(on_press=lambda x: self.add_new_item(dropdown_selector.text, new_item_input.text, popup))
+        def check_dropdown_selection(*args):
+            if dropdown_selector.text == 'Select Dropdown':  # Nothing selected
+                self.start_heartbeat_effect(dropdown_selector)  # Start heartbeat if no selection
+            else:
+                self.add_new_item(dropdown_selector.text, new_item_input.text, popup)
+        
+        add_button.bind(on_press=check_dropdown_selection)
         
         popup.open()
+
+    def start_heartbeat_effect(self, widget):
+        # Define a counter to keep track of the number of heartbeats
+        self.heartbeat_count = 0
+        
+        def beat(dt):
+            if self.heartbeat_count < 8:  # 6 toggles (3 red beats)
+                current_color = widget.background_color
+                if current_color == [1, 0.2, 0.2, 1]:  # If red
+                    widget.background_color = (1, 1, 1, 1)  # Toggle to white
+                else:
+                    widget.background_color = (1, 0.2, 0.2, 1)  # Toggle to red
+                self.heartbeat_count += 1
+            else:
+                widget.background_color = (1, 1, 1, 1)  # Reset to white after heartbeat
+                Clock.unschedule(heartbeat_event)  # Stop the heartbeat effect
+        
+        # Schedule the heartbeat effect to run every 0.2 seconds
+        heartbeat_event = Clock.schedule_interval(beat, 0.1)
 
     def add_new_item(self, dropdown_name, new_item, popup):
         if not new_item.strip():
@@ -292,7 +353,7 @@ class ProfessionalApp(App):
     def show_box_count_dropdown(self, instance, value):
         if value:
             dropdown = DropDown()
-            for i in range(1, 21):
+            for i in range(1, 7):
                 btn = Button(text=str(i), size_hint_y=None, height=44)
                 btn.bind(on_release=lambda btn: self.select_box_count(btn.text, dropdown))
                 dropdown.add_widget(btn)
@@ -341,8 +402,114 @@ class ProfessionalApp(App):
             dropdown.add_widget(btn)
         dropdown.open(instance)
 
+    # Function to show file chooser popup for .docx
+    def show_file_chooser(self, instance):
+        content = BoxLayout(orientation="vertical")
+        filechooser = FileChooserIconView(filters=["*.docx"])  # Filter to only show .docx files
+        select_button = Button(text="Select", size_hint=(1, None), height=40)
+        cancel_button = Button(text="Cancel", size_hint=(1, None), height=40)
+        
+        # Popup to display file chooser
+        popup = Popup(
+            title="Select a DOCX file",
+            content=content,
+            size_hint=(0.9, 0.9)
+        )
+        
+        # Bind the 'Select' button to the file selection
+        select_button.bind(on_release=lambda x: self.select_file(filechooser.selection, popup))
+        cancel_button.bind(on_release=popup.dismiss)
+        
+        content.add_widget(filechooser)
+        content.add_widget(select_button)
+        content.add_widget(cancel_button)
+        
+        popup.open()
+
+        # Function to handle file selection
+    def select_file(self, selection, popup):
+        if selection:
+            selected_file = selection[0]  # First file in the selection
+            self.input_doc = resource_path(selected_file)  # Update global input_doc with resource_path
+
+            # Extract and display only the file name, not the full path
+            file_name = os.path.basename(selected_file)  # Add this
+            self.upload_doc_button.text = file_name  # Update button text with file name
+
+            self.result_label.text = f"Document Selected: {file_name}"
+            self.document_selected = True  # Stop the heartbeat effect
+            self.upload_doc_button.background_color = (0, 1, 0, 1)  # Change to green once selected
+            Clock.unschedule(self.heartbeat_event)  # Stop the pulsing effect
+            popup.dismiss()
+
+        # Heartbeat effect to pulse the button's color
+    def heartbeat_effect(self, dt):
+        if not self.document_selected:
+            current_color = self.upload_doc_button.background_color
+            # Toggle between two shades of red for the heartbeat effect
+            if current_color == [1, 0, 0, 1]:  # If red
+                self.upload_doc_button.background_color = (1, 0.5, 0.5, 1)  # Light red
+            else:
+                self.upload_doc_button.background_color = (1, 0, 0, 1)
+                
+
+    def _on_file_drop(self, window, file_path, x, y):
+        file_path_decoded = file_path.decode("utf-8")  # Decode the file path (it's a byte string)
+
+        # Check if the file is a .docx
+        if not file_path_decoded.lower().endswith('.docx'):
+            # Notify user the document must be .docx
+            self.result_label.text = "Invalid file type. Please select a .docx file."
+            Logger.warning("Invalid file type dropped")
+            
+            # Reset the document state to allow for the next attempt
+            self.document_selected = False
+            self.input_doc = None  # Clear any previous input_doc
+            return  # Discard the document and do nothing
+
+        # Load the document
+        try:
+            doc = Document(file_path_decoded)
+        except Exception as e:
+            self.result_label.text = "Error reading the document."
+            Logger.error(f"Error loading the .docx document: {e}")
+            
+            # Reset the document state to allow for the next attempt
+            self.document_selected = False
+            self.input_doc = None  # Clear any previous input_doc
+            return
+
+        # Iterate through paragraphs and remove trailing spaces and empty lines
+        for paragraph in doc.paragraphs:
+            # Remove trailing spaces in paragraph text
+            paragraph.text = paragraph.text.rstrip()
+
+        # Remove trailing empty paragraphs at the end
+        while doc.paragraphs and not doc.paragraphs[-1].text.strip():
+            doc._element.remove(doc.paragraphs[-1]._element)
+
+        # If everything is valid, update global input_doc with resource_path
+        self.input_doc = resource_path(file_path_decoded)
+
+        # Extract and display only the file name, not the full path
+        file_name = os.path.basename(file_path_decoded)
+        self.upload_doc_button.text = file_name  # Update button text with file name
+
+        self.document_selected = True  # Stop the heartbeat effect
+        self.upload_doc_button.background_color = (0, 1, 0, 1)  # Change to green when valid file is dropped
+        Clock.unschedule(self.heartbeat_event)  # Stop the pulsing effect
+
+
     def process_document(self, instance):
         Logger.info("Submit button pressed")
+        
+        # Check if document is selected
+        if not self.input_doc:
+            self.result_label.text = "Please select a document before submitting."
+            Logger.warning("No document selected")
+            print(self.input_doc)
+            return
+
         # Check if all fields are filled
         if not self.all_fields_filled():
             self.result_label.text = "Please fill all fields before submitting."
@@ -368,12 +535,11 @@ class ProfessionalApp(App):
         today_date = datetime.datetime.now().strftime("%B %d, %Y")
         word_list.insert(0, today_date)
 
-        # Path to input and output documents
-        input_doc = resource_path("filldoc.docx")  # Updated with resource_path
+        # Path to save the output document on the Desktop
         output_doc = os.path.join(os.path.expanduser("~"), "Desktop", "ENVOI PREMIER RL.docx")
 
-        # Call the document-filling function
-        fill_placeholders(input_doc, output_doc, word_list)
+        # Call the document-filling function with the selected document
+        fill_placeholders(self.input_doc, output_doc, word_list)
 
         # Display confirmation
         self.result_label.text = "Document filled and saved to Desktop!"
@@ -383,40 +549,58 @@ class ProfessionalApp(App):
 
         try:
             Logger.info(f"Document processing completed for: {name}")
+            
+            # Automatically open the document based on the OS
+            self.open_document(output_doc)
+            
         except Exception as e:
             Logger.error(f"Error during document processing: {e}")
             raise
 
+    # Function to open the document based on the OS
+    def open_document(self, file_path):
+        # Detect the platform and open the document accordingly
+        try:
+            if platform.system() == "Darwin":  # macOS
+                subprocess.call(('open', file_path))
+            elif platform.system() == "Windows":  # Windows
+                os.startfile(file_path)
+            elif platform.system() == "Linux":  # Linux
+                subprocess.call(('xdg-open', file_path))
+        except Exception as e:
+            Logger.error(f"Failed to open document: {e}")
+            self.result_label.text = f"Document saved to Desktop, but failed to open: {e}"
+
     def show_password_popup(self, instance):
-        # Create a popup content layout
+            # Create a popup content layout
         content = BoxLayout(orientation='vertical', padding=10, spacing=10)
 
-        # Password input field
+            # Password input field
         password_input = TextInput(
-            hint_text='Enter password',
-            multiline=False,
-            password=True,  # Mask the input for password
-            size_hint_y=None,
-            height=44
+                hint_text='Enter password',
+                multiline=False,
+                password=True,  # Mask the input for password
+                size_hint_y=None,
+                height=44
         )
 
-        # Submit button inside the popup
+            # Submit button inside the popup
         submit_button = Button(
-            text='Submit',
-            size_hint_y=None,
-            height=44
+                text='Submit',
+                size_hint_y=None,
+                height=44
         )
 
-        # Add the password input and submit button to the content layout
+            # Add the password input and submit button to the content layout
         content.add_widget(password_input)
         content.add_widget(submit_button)
 
-        # Create the popup
+            # Create the popup
         password_popup = Popup(
-            title='Admin Access Required',
-            content=content,
-            size_hint=(None, None),
-            size=(400, 200)
+                title='Admin Access Required',
+                content=content,
+                size_hint=(None, None),
+                size=(400, 200)
         )
 
         # Bind the submit button action
