@@ -555,7 +555,7 @@ class ProfessionalApp(App):
         output_doc = os.path.join(os.path.expanduser("~"), "Desktop", "ENVOI PREMIER RL.docx")
 
         # Call the document-filling function with the selected document
-        fill_placeholders(self.input_doc, output_doc, word_list)
+        fill_placeholders(self.input_doc, output_doc, word_list, self)
 
         # Display confirmation
         self.result_label.text = "Document filled and saved to Desktop!"
