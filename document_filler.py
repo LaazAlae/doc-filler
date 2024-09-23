@@ -117,7 +117,7 @@ def fill_placeholders(doc_path, output_path, word_list, self):
     # Assuming the table is the first table in the document
     for i in range(num_boxes):
         row = table.add_row()
-        table._tbl.insert(1, row._tr)
+
 
         # Set the row height to exactly 0.32 inches
         tr = row._tr  # Access the row's XML element
@@ -593,6 +593,18 @@ class ProfessionalApp(App):
             raise
 
     # Function to open the document based on the OS
+    def open_document(self, file_path):
+        # Detect the platform and open the document accordingly
+        try:
+            if platform.system() == "Darwin":  # macOS
+                subprocess.call(('open', file_path))
+            elif platform.system() == "Windows":  # Windows
+                os.startfile(file_path)
+            elif platform.system() == "Linux":  # Linux
+                subprocess.call(('xdg-open', file_path))
+        except Exception as e:
+            Logger.error(f"Failed to open document: {e}")
+            self.result_label.text = f"Document saved to Desktop, but failed to open: {e}"
 
 
     def show_password_popup(self, instance):
