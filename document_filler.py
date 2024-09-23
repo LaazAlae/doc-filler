@@ -84,7 +84,7 @@ def save_options(options):
 OPTIONS = load_options()
 
 # Function that fills the placeholders in the document
-def fill_placeholders(doc_path, output_path, word_list):
+def fill_placeholders(doc_path, output_path, word_list, self):
     doc = Document(doc_path)
     placeholder_format = "{placeholder}"
     boxes_index = 3  # Now the number of boxes is in index 3
@@ -107,6 +107,10 @@ def fill_placeholders(doc_path, output_path, word_list):
                     run.text = run.text.replace(placeholder_format.format(placeholder=word_index + 1), word_list[word_index])
                 run.font.color.rgb = RGBColor(0, 0, 0)
                 word_index += 1
+
+    if doc.tables == 0:
+        self.result_label.text = "Your document doesn't contain any tables."
+        return
 
     table = doc.tables[0]
     tag_start_index = 5 
