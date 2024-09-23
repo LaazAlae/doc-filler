@@ -111,7 +111,9 @@ def fill_placeholders(doc_path, output_path, word_list, self):
     if doc.tables == 0:
         self.result_label.text = "Your document doesn't contain any tables."
         return
+   
 
+    ##please work
     table = doc.tables[0]
     tag_start_index = 5 
     # Assuming the table is the first table in the document
