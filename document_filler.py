@@ -406,45 +406,64 @@ class ProfessionalApp(App):
             dropdown.add_widget(btn)
         dropdown.open(instance)
 
-    # Function to show file chooser popup for .docx
+
+
     def show_file_chooser(self, instance):
+        # Create a vertical layout for the popup content
         content = BoxLayout(orientation="vertical")
-        filechooser = FileChooserIconView(filters=["*.docx"])  # Filter to only show .docx files
+        
+        # Create the FileChooserIconView to browse for .docx files
+        filechooser = FileChooserIconView(
+            filters=["*.docx"],  # Filter to show only .docx files
+            path=os.path.expanduser("~")  # Start at the home directory
+        )
+        
+        # Create 'Select' and 'Cancel' buttons
+        button_layout = BoxLayout(orientation="horizontal", size_hint_y=None, height=50)
         select_button = Button(text="Select", size_hint=(1, None), height=40)
         cancel_button = Button(text="Cancel", size_hint=(1, None), height=40)
         
-        # Popup to display file chooser
+        # Add buttons to a horizontal layout for proper placement
+        button_layout.add_widget(select_button)
+        button_layout.add_widget(cancel_button)
+        
+        # Create the popup with the FileChooser and buttons
         popup = Popup(
             title="Select a DOCX file",
             content=content,
             size_hint=(0.9, 0.9)
         )
         
-        # Bind the 'Select' button to the file selection
+        # Bind the 'Select' button to handle file selection
         select_button.bind(on_release=lambda x: self.select_file(filechooser.selection, popup))
         cancel_button.bind(on_release=popup.dismiss)
         
+        # Add file chooser and buttons to the content layout
         content.add_widget(filechooser)
-        content.add_widget(select_button)
-        content.add_widget(cancel_button)
+        content.add_widget(button_layout)
         
+        # Open the popup
         popup.open()
 
-        # Function to handle file selection
     def select_file(self, selection, popup):
         if selection:
-            selected_file = selection[0]  # First file in the selection
-            self.input_doc = resource_path(selected_file)  # Update global input_doc with resource_path
-
-            # Extract and display only the file name, not the full path
-            file_name = os.path.basename(selected_file)  # Add this
-            self.upload_doc_button.text = file_name  # Update button text with file name
-
-            self.result_label.text = f"Document Selected: {file_name}"
-            self.document_selected = True  # Stop the heartbeat effect
-            self.upload_doc_button.background_color = (0, 1, 0, 1)  # Change to green once selected
-            Clock.unschedule(self.heartbeat_event)  # Stop the pulsing effect
-            popup.dismiss()
+            selected_file = selection[0]  # Get the first selected file
+            if selected_file.lower().endswith('.docx'):
+                # Update button text with the file name
+                self.upload_doc_button.text = os.path.basename(selected_file)
+                
+                # Set the selected file as the input document for further processing
+                self.input_doc = selected_file
+                
+                # Close the popup
+                popup.dismiss()
+                
+                # Optionally log the selection
+                Logger.info(f"Selected file: {selected_file}")
+            else:
+                Logger.warning("Invalid file type selected. Only .docx files are allowed.")
+        else:
+            Logger.warning("No file selected.")
 
         # Heartbeat effect to pulse the button's color
     def heartbeat_effect(self, dt):
@@ -567,25 +586,14 @@ class ProfessionalApp(App):
             Logger.info(f"Document processing completed for: {name}")
             
             # Automatically open the document based on the OS
-            self.open_document(output_doc)
+           # self.open_document(output_doc)
             
         except Exception as e:
             Logger.error(f"Error during document processing: {e}")
             raise
 
     # Function to open the document based on the OS
-    def open_document(self, file_path):
-        # Detect the platform and open the document accordingly
-        try:
-            if platform.system() == "Darwin":  # macOS
-                subprocess.call(('open', file_path))
-            elif platform.system() == "Windows":  # Windows
-                os.startfile(file_path)
-            elif platform.system() == "Linux":  # Linux
-                subprocess.call(('xdg-open', file_path))
-        except Exception as e:
-            Logger.error(f"Failed to open document: {e}")
-            self.result_label.text = f"Document saved to Desktop, but failed to open: {e}"
+
 
     def show_password_popup(self, instance):
             # Create a popup content layout
