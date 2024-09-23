@@ -457,6 +457,8 @@ class ProfessionalApp(App):
                 self.upload_doc_button.background_color = (1, 0, 0, 1)
                 
 
+
+
     def _on_file_drop(self, window, file_path, x, y):
         file_path_decoded = file_path.decode("utf-8")  # Decode the file path (it's a byte string)
 
@@ -489,8 +491,18 @@ class ProfessionalApp(App):
             paragraph.text = paragraph.text.rstrip()
 
         # Remove trailing empty paragraphs at the end
+        # Ensure that the element is actually a child of the document element before removing it
         while doc.paragraphs and not doc.paragraphs[-1].text.strip():
-            doc._element.remove(doc.paragraphs[-1]._element)
+            try:
+                # Check if the element is a valid child before attempting removal
+                if doc.paragraphs[-1]._element in doc._element:
+                    doc._element.remove(doc.paragraphs[-1]._element)
+                else:
+                    Logger.warning("Attempted to remove a paragraph element that is not a valid child.")
+                    break  # If not a valid child, break the loop to prevent errors
+            except Exception as e:
+                Logger.error(f"Error removing paragraph element: {e}")
+                break
 
         # If everything is valid, update global input_doc with resource_path
         self.input_doc = resource_path(file_path_decoded)
