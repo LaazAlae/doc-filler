@@ -25,7 +25,7 @@ jobs:
       # Step to check if the icon file exists in the root directory
       - name: Verify logo.ico exists
         run: |
-          if [ -f "logo.ico" ]; then
+          if ( -f "logo.ico" ); then
             echo "logo.ico found!"
           else
             echo "ERROR: logo.ico not found. The .exe may not have an icon."
